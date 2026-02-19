@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "psgccode": {
+      "type": "string"
+    },
+    "totalDengueCases": {
+      "type": "array",
+      "items": {
+        "required": ["year", "totalCases"],
+        "type": "object",
+        "properties": {
+          "year": {
+            "type": "string"
+          },
+          "totalCases": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      }
+    }
+  }
+}

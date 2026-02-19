@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "types": ["node", "react", "react-dom", "swiper"],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"],
+      "@library-ui/*": ["./libraries/ui/*"],
+      "@library-api/*": ["./libraries/api/*"],
+      "@library-hooks/*": ["./libraries/hooks/*"],
+      "@library-supabase/*": ["./libraries/supabase/*"],
+      "@library-serializer/*": ["./libraries/serializer/*"],
+      "@components/*": ["./components/*"],
+      "@models/*": ["./models/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "types",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": ["node_modules"]
+}

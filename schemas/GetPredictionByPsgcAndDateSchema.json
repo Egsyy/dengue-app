@@ -1,0 +1,40 @@
+{
+  "required": [
+    "psgccode",
+    "barangayName",
+    "iso_year",
+    "iso_week",
+    "lagged_week",
+    "lagged_year",
+    "valuePredicted"
+  ],
+  "type": "object",
+  "properties": {
+    "psgccode": {
+      "type": "string"
+    },
+    "barangayName": {
+      "type": "string"
+    },
+    "iso_year": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "iso_week": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "lagged_week": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "lagged_year": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "valuePredicted": {
+      "type": "number",
+      "format": "float"
+    }
+  }
+}

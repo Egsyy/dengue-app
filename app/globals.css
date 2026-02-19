@@ -1,0 +1,14 @@
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
+@import "tailwindcss";
+
+/* Minimal global styles - Mantine handles most styling */
+:root {
+  --font-sans: "Noto Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+}
