@@ -293,7 +293,7 @@ export default function AdminPage() {
           <Tabs.Tab value="advisories">Advisories</Tabs.Tab>
         </Tabs.List>
 
-        <Tabs.Panel value="model" style={{ paddingTop: theme.spacing.xs }}>
+        { /** <Tabs.Panel value="model" style={{ paddingTop: theme.spacing.xs }}>
           <Stack gap="sm">
             <Text fw={600}>Model Info</Text>
             <Alert variant="light" color="blue" title="Disclaimer">
@@ -371,7 +371,7 @@ export default function AdminPage() {
               {operationId && <Text size="sm">Operation: {operationId}</Text>}
             </Group>
           </Stack>
-        </Tabs.Panel>
+        </Tabs.Panel> */}
                 {
                   /**
                    * <Tabs.Panel value="predictions" style={{ paddingTop: theme.spacing.xs }}>
