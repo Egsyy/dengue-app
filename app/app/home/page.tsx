@@ -15,6 +15,7 @@ import {
   Text,
 } from "@mantine/core";
 import { IconAlertCircle } from "@tabler/icons-react";
+import HeatmapSection from "./HeatmapSection";
 
 type Props = {};
 
@@ -62,6 +63,8 @@ const HomePage = () => {
         {historicalData !== undefined && (
           <HistoricalCasesChart data={historicalData} height={400} showTrend />
         )}
+
+        <HeatmapSection />
       </Stack>
     </Container>
   );
